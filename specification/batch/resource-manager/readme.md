@@ -36,8 +36,17 @@ These settings apply only when `--tag=package-2019-04` is specified on the comma
 
 ```yaml $(tag) == 'package-2019-04'
 input-file:
+  - Microsoft.Batch/stable/2019-04-02/BatchManagement.json
+```
+### Tag: package-2019-04
+
+These settings apply only when `--tag=package-2019-04` is specified on the command line.
+
+``` yaml $(tag) == 'package-2019-04'
+input-file:
   - Microsoft.Batch/stable/2019-04-01/BatchManagement.json
 ```
+
 ### Tag: package-2018-12
 
 These settings apply only when `--tag=package-2018-12` is specified on the command line.
